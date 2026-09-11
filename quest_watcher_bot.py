@@ -39,10 +39,7 @@ import threading
 # ── CONFIG ────────────────────────────────────────────────
 # On Railway, set BOT_TOKEN as an environment variable instead of
 # pasting it here — keeps your token out of your GitHub repo.
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE")
-BOT_TOKEN = "8694444774:AAEHgHBA0UIlB4UkRhVHsK2z3_aQ6eqnAMI"
-
-
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8694444774:AAEHgHBA0UIlB4UkRhVHsK2z3_aQ6eqnAMI")
 POLL_QUEST_INTERVAL = 60     # seconds between quest board checks
 POLL_TELEGRAM_INTERVAL = 2   # seconds between checking for new commands
 STATE_FILE = "watcher_state.json"
